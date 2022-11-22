@@ -9,3 +9,12 @@ main()
 		printf("%c",welcome);
 	}
 }
+void sub()
+{
+	int a,b,c;
+	cout<<"\nEnter a number:";
+	cin>>a>>b>>c;
+	c=a-b;
+	cout<<c;
+	
+}
